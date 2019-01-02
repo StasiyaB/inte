@@ -1,0 +1,34 @@
+.test {
+  width: 300px;
+  margin: 10em auto;
+  background-color: #b5f7a8;
+  text-align: center;
+  line-height: 300px;
+  /*animation: test 5s;*/
+}
+.test:hover {
+    animation: test 1s infinite alternate;
+}
+h1 {
+  color: grey;
+}
+/*@keyframes test {
+  0% {
+    transform: translate(-40em);
+  }
+  80% {
+    transform: translate(40em);
+  }
+  100% {
+    transform: translate(0);
+  }
+}*/
+
+@keyframes test {
+  0% {
+    transform: translateY(-2em);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

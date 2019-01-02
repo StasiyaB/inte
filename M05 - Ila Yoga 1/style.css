@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+    outline: none;
+}
+header {
+	background-image: url(img/fond.jpg);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+	background-position: center bottom;
+	background-size: cover;
+	padding: 1em;
+	padding: 0;
+}
+header h1 {
+	font-family: "Kaushan Script";
+	font-size: 2em;
+	padding-top: 156px;
+	padding-bottom: 156px;
+	text-shadow: 5px 2px 6px #63707d;
+}
+header p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background-color: rgba(255,255,255,0.1);
+}
+header span {
+	text-transform: uppercase;
+}
+nav {
+	font-family: "Kaushan Script";
+	font-size: 1.5em;
+	background-color: rgba(255,255,255,0.3);
+	padding: 16px;
+}
+body {
+	color: #63707d;
+	font-family: "Playfair Display";
+	font-size: 1em;
+	margin: 0;
+}
+footer {
+	background-image: url(img/background_section.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 12px;
+	font-family: "Playfair Display";
+	color: #ffffff;
+	padding-top: 12px;
+    padding-bottom: 12px;
+}
+footer img {
+	width: 4%;
+}
+footer p {
+	text-align: center;
+}
+footer a {
+	color: #ffffff;
+}
+hr {
+	margin-left: 28px;
+	margin-right: 28px;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+.list {
+	list-style: none;
+	padding-left: 0;
+}
+.list li {
+	display: inline-block;
+	width: 24%;
+}
+.list a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.container {
+	width: 70%;
+	max-width: 1100px;
+	margin: auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.yoga1 img {
+	float: left;
+	margin-right: 20px;
+}
+.yoga1 h2 {
+	text-align: center;
+}
+.yoga2 {
+	padding-top: 45px;
+}
+.yoga2 h2 {
+	text-align: center;
+}
+.yoga2 img {
+	float: right;
+	margin-left: 20px;
+}
+.white {
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.violet {
+	background-image: url(img/background_section.jpg);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+.violet article{
+	display: inline-block;
+	width: 33%;
+}
+.violet img {
+	width: 25%;
+}
+.map {
+
+}

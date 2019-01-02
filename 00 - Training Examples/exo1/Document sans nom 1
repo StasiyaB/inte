@@ -1,0 +1,44 @@
+Hello World! Bienvenue à la 3WA!
+
+L'intégration Le développement La Répartition des moduless Jouons avec le CSS!
+
+Au cours de cette formation nous allons avoir 2 matières :
+
+L'intégration 
+
+Le HTML:
+
+Le HTML sert à crée le  contenu du site: elle va contenir uniquement la partie textuelle du site.
+
+Le CSS: 
+
+Le CSS va nous permettre d'ajouter la couche graphique à notre site: les couleurs, les formes, le fond, etc.
+
+Le développement
+Le Javascript:
+Javascript est un langage de programmation de script employé pour prendre une page web interactive, le comportement de la page et son apparence pourra varier en fonction de certains paramètres.
+
+Le PHP:
+
+Le PHP est un langage de programmation libre, utilisé pour généré des pages web dynamiques, qui sont donc modifiés en fonction de certaines informations (heure, nom de l'utilisateur, formulaire rempli par l'utilisateur etc).
+ 
+MySQL:
+MySQL est un système de gestion de bases de données, il permet d'enregistrer des informations rempli par l'utilisateur (exemple: formulaire de création de compte) pour ensuite être ré-utilisé au moment approprié (ex: connection à un site internet avec indentifiant et mot de passe).
+
+400 heures de formation intensive:
+le programme de formation de la 3W academy est découpé en 57 modules;
+ HTML,CSS, Responsive web design, Wordpress, Bootstrap: 16 modules
+PHP, MySQL, POO, MVC: 25 modules
+Symfony: 4 modules
+
+Et ici, nous allons un peu jouer avec le CSS!
+Les couleurs du texte: et ma police sera Arial!
+Ce paragraphe est rouge.
+Ce paragraphe est bleu.
+Ce paragraphe est vert.
+
+Le couleurs de fond: Et ma police sera monospace!
+Ce paragraphe est rouge.
+Ce paragraphe est bleu.
+Ce paragraphe est vert.
+

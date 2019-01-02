@@ -1,0 +1,138 @@
+/* BODY */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+    width: 70%;
+	max-width: 1100px;
+	margin: auto;
+}
+/* NAVIGATION */
+p span {
+	color: #c13922; 
+}
+.title {
+    background-color: #f9f9f1;
+}
+.title h1 {
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #ffffff;
+	background-color: #c13922;
+	margin-bottom: 0;
+   	padding-top: 12px;
+    padding-bottom: 12px;
+}
+.title p {
+	float:right;
+	width: 75%;
+	text-align: right;
+	padding-top: 22px;
+}
+.list {
+	list-style: none;
+	background-color: #ebead7;
+	margin-top: 0;
+	padding-left: 0px;
+}
+.list a {
+	text-decoration: none;
+	color: #c13922;
+}
+.list li {
+	display: inline-block;
+    width: 20%;
+    border-right: 2px solid #ffffff;
+    text-align: center;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*FIRST SECTION*/
+.first>div>img {
+    float: right;
+    
+}
+.first>h1 {
+    float: left;
+    width: 20%;
+}
+.first>h1>span:first-child {
+    font-size: 18px;
+    color: #8a4631;
+}
+.first>h1>span:last-child {
+    font-size: 18px;
+}
+.first>h1>span:nth-child(3) {
+    color: #bf3a17;
+    font-size: 62px;
+}
+.first>h1>span:nth-child(2) {
+    font-size: 62px;
+}
+/*SECOND SECTION*/
+.second {
+    background-color: #ebead8;
+}
+.second article{
+    display: inline-block;
+    width: 30%;
+    padding-left: 5%;
+    /*padding-right: 2%;*/
+    vertical-align: top;
+}
+.valdis p {
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+.valdis img {
+    float: left;
+}
+.news {
+    background-color: #bf3a17;
+    padding: 2.5%;
+}
+button {
+    background-color: #f6931d;
+    color: white;
+    border-color: #f6931d;
+}
+.news h2 {
+    color: white;    
+}
+/*THIRD SECTION*/
+.third {
+    background-color: #dbd5bb;
+}
+.third nav {
+    display: inline-block;
+    width: 30%;
+    padding-left: 5%;
+    /*padding-right: 2%;*/
+    vertical-align: top;
+}
+/*FOOTER*/
+footer {
+    text-align: left;    
+}
+footer a {
+    color: #bf3a17;   
+}
+footer p {
+     padding-left: 5%;
+}

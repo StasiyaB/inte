@@ -1,0 +1,152 @@
+<<<<<<< HEAD
+/*BODY*/
+main {
+    text-align: center;
+    font-size: 1em;
+}
+h2 {
+	font-size: 2em;
+}
+/*TABLE*/
+table {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+th {
+	padding: 12px;
+	text-align: left;
+	background-color: #c2a4db;
+	color: #ffffff;
+	font-family: "Kaushan Script";
+	font-size: 1.6em;
+}
+td {
+	border: 1px solid #cccccc;
+	padding: 6px;
+}
+tr:nth-of-type(even) {
+	background-color: #f0f1f1;
+}
+/*FORM*/
+fieldset {
+	margin-top: 12px;
+	margin-bottom: 24px;
+	padding-bottom: 18px;
+    padding-top: 18px;
+    border-width: 1px;
+    border-color: #cccccc;
+	border-style: solid;
+}
+legend {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.fs1 input {	
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 150px;
+    margin-right: 5%;
+}
+.fs2 input {
+	margin-right: 5%;
+}
+.fs3 input {
+	margin-right: 2%;
+}
+.internet select {	
+    width: 90%;
+}
+button {
+	margin-top: 12px;
+	margin-bottom: 18px;
+	background-color: #885dbd;
+	color: #ffffff;
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+=======
+/*BODY*/
+main {
+    text-align: center;
+    font-size: 1em;
+}
+h2 {
+	font-size: 2em;
+}
+/*TABLE*/
+table {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+th {
+	padding: 12px;
+	text-align: left;
+	background-color: #c2a4db;
+	color: #ffffff;
+	font-family: "Kaushan Script";
+	font-size: 1.6em;
+}
+td {
+	border: 1px solid #cccccc;
+	padding: 6px;
+}
+tr:nth-of-type(even) {
+	background-color: #f0f1f1;
+}
+/*FORM*/
+fieldset {
+	margin-top: 12px;
+	margin-bottom: 24px;
+	padding-bottom: 18px;
+    padding-top: 18px;
+    border-width: 1px;
+    border-color: #cccccc;
+	border-style: solid;
+}
+legend {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.fs1 input {	
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 150px;
+    margin-right: 5%;
+}
+.fs2 input {
+	margin-right: 5%;
+}
+.fs3 input {
+	margin-right: 2%;
+}
+.internet select {	
+    width: 90%;
+}
+button {
+	margin-top: 12px;
+	margin-bottom: 18px;
+	background-color: #885dbd;
+	color: #ffffff;
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+>>>>>>> dea60e3f83b316a0953dfca397459bbe1fd36c84
+}

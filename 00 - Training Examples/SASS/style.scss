@@ -1,0 +1,18 @@
+$color1:red;
+$colorgreen:green;
+$size: 1.5em;
+h1 {
+	color: $color1;
+}
+p {
+	font-size: $size;
+	color: $colorgreen;
+}
+@for $i from 2 through 12{
+	.grid-#{$i}{
+		display:flex;
+	}
+	.grid-#{$i}>*{
+		width: 100%/$i;
+	}
+} 

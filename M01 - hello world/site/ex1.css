@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+.font {
+  font-family: Arial;
+}
+.police {
+  font-family: monospace;
+}
+.couleur1 {
+	color: red;
+}
+.couleur2 {
+	color: blue;
+}
+.couleur3 {
+	color: green;
+}
+.back1 {
+	background-color:#FF0000;
+}
+.back2 {
+	background-color:#0000ff;
+}
+.back3 {
+	background-color:#0b722f;
+=======
+.font {
+  font-family: Arial;
+}
+.police {
+  font-family: monospace;
+}
+.couleur1 {
+	color: red;
+}
+.couleur2 {
+	color: blue;
+}
+.couleur3 {
+	color: green;
+}
+.back1 {
+	background-color:#FF0000;
+}
+.back2 {
+	background-color:#0000ff;
+}
+.back3 {
+	background-color:#0b722f;
+>>>>>>> dea60e3f83b316a0953dfca397459bbe1fd36c84
+}
