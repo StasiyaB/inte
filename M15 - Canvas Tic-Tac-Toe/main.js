@@ -1,6 +1,9 @@
 'use strict';
 var canvas = document.getElementById("my-canvas");
 var context= canvas.getContext('2d');
+var h = 0;
+var firstMove = Math.random();
+
 context.fillStyle = '#333';
 context.fillRect(10,10,620,620);
 //greed lines
@@ -43,22 +46,39 @@ function createCross(x, y) {
   context.closePath();
 }
 
-var h = 0;
+canvas.addEventListener("click", onClickPosition);
 
-for (var i = 0; i <= 2; i++) {
+function displayMove() {
 
-    var x = 200*i+120;
+  for (var i = 0; i <= 2; i++) {
 
-  for (var j= 0; j<= 2; j++) {
+      var x = 200*i+120;
 
-    var y = 200*j+120;
+    for (var j= 0; j<= 2; j++) {
 
-    h += 20;
+      var y = 200*j+120;
 
-    context.strokeStyle = 'hsl('+h+',71%,50%)';
-    createCross(x,y);
-    createCircle(x,y);
+      h += 20;
+      context.strokeStyle = 'hsl('+h+',71%,50%)';
+
+      if (firstMove < 1/2) {
+
+        createCross(x,y);
+      } else {
+
+        createCircle(x,y);
+      }
+    }
   }
 }
 
-addEventListener
+function onClickPosition(event) {
+
+  var offset = canvas.getBoundingClientRect();
+  var location = {  x: event.clientX - offset.left - 20, y: event.clientY - offset.top - 20}
+  console.log(event.clientX);
+  console.log(event.clientY);
+
+  displayMove();
+
+}
