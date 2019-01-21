@@ -46,7 +46,7 @@ function createCross(x, y) {
   context.closePath();
 }
 
-canvas.addEventListener("click", displayMove);
+canvas.addEventListener("click", onClickPosition);
 
 function displayMove() {
 
