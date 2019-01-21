@@ -46,7 +46,7 @@ function createCross(x, y) {
   context.closePath();
 }
 
-canvas.addEventListener("click", onClickPosition);
+canvas.addEventListener("click", displayMove);
 
 function displayMove() {
 
@@ -60,7 +60,6 @@ function displayMove() {
 
       h += 20;
       context.strokeStyle = 'hsl('+h+',71%,50%)';
-
       if (firstMove < 1/2) {
 
         createCross(x,y);
