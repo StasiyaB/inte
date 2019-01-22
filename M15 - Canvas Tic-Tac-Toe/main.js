@@ -3,6 +3,8 @@ var canvas = document.getElementById("my-canvas");
 var context= canvas.getContext('2d');
 var h = 0;
 var firstMove = Math.random();
+var move = false;
+
 
 context.fillStyle = '#333';
 context.fillRect(10,10,620,620);
@@ -30,18 +32,18 @@ function createCircle(x,y) {
 
   context.beginPath();
   context.arc(x,y,50,0,Math.PI*2,true);
-  context.lineWidth = 5;
+  context.lineWidth = 7;
   context.stroke();
   context.closePath();
 }
 //cross
 function createCross(x, y) {
   context.beginPath();
-  context.moveTo(x-20,y+20);
-  context.lineTo(x+20,y-20);
-  context.moveTo(x-20,y-20);
-  context.lineTo(x+20,y+20);
-  context.lineWidth = 5;
+  context.moveTo(x-40,y+40);
+  context.lineTo(x+40,y-40);
+  context.moveTo(x-40,y-40);
+  context.lineTo(x+40,y+40);
+  context.lineWidth = 7;
   context.stroke();
   context.closePath();
 }
@@ -60,13 +62,14 @@ function displayMove() {
 
       h += 20;
       context.strokeStyle = 'hsl('+h+',71%,50%)';
-      if (firstMove < 1/2) {
 
-        createCross(x,y);
-      } else {
+        if (firstMove < 1/2) {
 
-        createCircle(x,y);
-      }
+          createCross(x,y);
+        } else {
+
+          createCircle(x,y);
+        }
     }
   }
 }
@@ -75,9 +78,28 @@ function onClickPosition(event) {
 
   var offset = canvas.getBoundingClientRect();
   var location = {  x: event.clientX - offset.left - 20, y: event.clientY - offset.top - 20}
-  console.log(event.clientX);
-  console.log(event.clientY);
+  //console.log(event.clientX);
+  //console.log(event.clientY);
 
-  displayMove();
+  var i = Math.round((location.x-120)/200);
+  var j = Math.round((location.y-120)/200);
+  var x = 200*i+120;
+  var y = 200*j+120;
+
+    //console.log(i);
+    //console.log(j);
+
+    h += 20;
+    context.strokeStyle = 'hsl('+h+',71%,50%)';
+
+    if (move == false) {
+
+      createCross(x,y);
+      move = true;
+    } else {
+
+      createCircle(x,y);
+      move = false;
+    }
 
 }
