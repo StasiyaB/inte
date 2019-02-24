@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+.error-page h1 {
+  text-align: center;
+  position: relative;
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+@keyframes move {
+  0%   {opacity: 0; left:-800px; top:0px;}
+  100% {color:red; left:0px; top:0px;}
+}
+
+.error-page h2 {
+  text-align: center;
+  animation-name: move2;
+  animation-duration: 3s;
+}
+
+@keyframes move2 {
+  0%   {opacity: 0; left:0px; top:0px;}
+  25%  {filter: blur(10px); left:0px; top:0px;}
+  50%  {filter: blur(5px); left:0px; top:0px;}
+  100% {color:red; left:0px; top:0px;}
+}
