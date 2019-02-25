@@ -1,0 +1,34 @@
+body {
+  width: 80%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+a {
+  padding: 2em;
+}
+.fab {
+  font-size: 3em;
+  color: blue;
+}
+.flex-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+
+.icon-transform .fab:hover {
+  animation: bounce 1s infinite alternate;
+  /*animation-timing-function: ease-in-out;*/
+}
+@keyframes bounce {
+  100% {
+    transform: translateY(-20px);
+
+  }
+  0%{
+    transform: translateY(0);
+  }
+}
